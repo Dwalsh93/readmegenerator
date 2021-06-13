@@ -14,7 +14,7 @@ const questions = () => {
             {
                 type: 'input',
                 name: 'title',
-                message: 'What is the title of your project? (Required)',
+                message: 'What is the title of your project?',
                 validate: titleInput => {
                     if (titleInput) {
                         return true;
@@ -25,8 +25,7 @@ const questions = () => {
 
                 }
             },
-            //         ])
-            // }
+
             //end readme title input
             //begin description input
             {
@@ -44,10 +43,19 @@ const questions = () => {
             {
                 type: "input",
                 name: "usage",
-                message: "What is the project's usage?",
+                message: "Provide instructions and examples for use. Include screenshots as needed.",
             },
 
             //end usage input
+            //begin credits
+
+            {
+                type: "input",
+                name: "credits",
+                message: "List your collaborators, if any, with links to their GitHub profiles."
+            },
+
+            //end credits
             //begin license
             {
                 type: "checkbox",
@@ -56,20 +64,37 @@ const questions = () => {
                 choices: ["ISC", "MIT", "Mozilla", "Open"],
                 validate: function (answer) {
                     if (answer.length < 1) {
-                      return console.log("You must enter the license of your project.");
+                        return console.log("You must enter the license of your project.");
                     }
                     return true;
-                  },
+                },
             },
+            
+            //end license
+            //begin extra content
 
-    
 
 
-            // TODO: Create a function to write README file
-            // function writeToFile(fileName, data) { }
+        ])
+}
 
-            // TODO: Create a function to initialize app
-            // function init() { }
 
-            // Function call to initialize app
-            questions();
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) { 
+    fileName = 'README.md';
+    fs.writeFile(fileName, data, (err) => {
+                //if error
+                if (err) {
+                    return console.log(err);
+                }
+                //if file made
+                console.log("Success! Your document is ready for use!");
+            });
+        };
+
+// TODO: Create a function to initialize app
+// function init() { }
+
+// Function call to initialize app
+questions();
