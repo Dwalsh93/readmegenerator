@@ -1,9 +1,11 @@
 
-    # ReadmeGenerator
+    # rhrhr
       
    
+    ![Github license](https://img.shields.io/badge/license-ISC-blue.svg)
+
     ## Description
-    its a good project
+    thdhtht
     ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
@@ -15,7 +17,7 @@
     ## Installation
     undefined
     ## Usage
-    uuuuu
+    thdhht
     ## Credits
     undefined
     ## Tests
@@ -25,7 +27,7 @@
     
     Find me on GitHub: [undefined](https://github.com/undefined)
     ## License
-    [![License: Open](https://img.shields.io/badge/license-Open-undefined.svg)](http://opensource.org/licenses/Open)
+    [![License: ISC](https://img.shields.io/badge/license-ISC-undefined.svg)](http://opensource.org/licenses/ISC)
     ## Contributing
     undefined 
     

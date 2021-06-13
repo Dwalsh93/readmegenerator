@@ -13,38 +13,46 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-    # ${answers.title}
-      
+  # ${answers.title}
+  
    
-    ![Github license](https://img.shields.io/badge/license-${readmeData.license}-blue.svg)
+  ![Github license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
-    ## Description
-    ${answers.description}
-    ## Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    ## Installation
-    ${answers.install}
-    ## Usage
-    ${answers.usage}
-    ## Credits
-    ${answers.contributing}
-    ## Tests
-    ${answers.tests}
-    ## Questions
-    Email me with any questions: ${answers.questions}
+  ## Description
+  ${answers.description}
+
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+  ## Installation
+  ${answers.install}
+
+  ## Usage
+  ${answers.usage}
+
+  ## Credits
+  ${answers.contributing}
+
+  ## Tests
+  ${answers.tests}
+
+  ## Questions
+  Email me with any questions: ${answers.questions}
     
-    Find me on GitHub: [${answers.username}](https://github.com/${answers.username})
-    ## License
-    [![License: ${answers.license}](https://img.shields.io/badge/license-${answers.license}-${answers.color}.svg)](http://opensource.org/licenses/${answers.license})
-    ## Contributing
-    ${answers.contributing} 
-    `;
+  Find me on GitHub: [${answers.username}](https://github.com/${answers.username})
+
+  ## License
+  [![License: ${answers.license}](https://img.shields.io/badge/license-${answers.license}-${answers.color}.svg)](http://opensource.org/licenses/${answers.license})
+    
+  ## Contributing
+  ${answers.contributing} 
+  `;
 
 }
 
