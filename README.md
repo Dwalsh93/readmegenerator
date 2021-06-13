@@ -1,9 +1,9 @@
 
-    # dw
+    # ReadmeGenerator
       
    
     ## Description
-    dw
+    its a good project
     ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
@@ -15,7 +15,7 @@
     ## Installation
     undefined
     ## Usage
-    dw
+    uuuuu
     ## Credits
     undefined
     ## Tests
@@ -25,7 +25,7 @@
     
     Find me on GitHub: [undefined](https://github.com/undefined)
     ## License
-    [![License: ISC](https://img.shields.io/badge/license-ISC-undefined.svg)](http://opensource.org/licenses/ISC)
+    [![License: Open](https://img.shields.io/badge/license-Open-undefined.svg)](http://opensource.org/licenses/Open)
     ## Contributing
     undefined 
     
