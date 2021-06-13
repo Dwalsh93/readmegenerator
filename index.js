@@ -74,8 +74,8 @@ const questions = () => {
             //begin extra content
 
 
+        ]).then(answers => writeToFile('./README.md', generateMarkdown(answers)));
 
-        ])
 }
 
 
@@ -89,7 +89,7 @@ function writeToFile(fileName, data) {
                     return console.log(err);
                 }
                 //if file made
-                console.log("Congratulations Shinji-Kun");
+                console.log("Congratulations you made it!");
             });
         };
 
