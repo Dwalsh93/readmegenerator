@@ -89,7 +89,7 @@ function writeToFile(fileName, data) {
                     return console.log(err);
                 }
                 //if file made
-                console.log("Success! Your document is ready for use!");
+                console.log("Congratulations Shinji-Kun");
             });
         };
 
